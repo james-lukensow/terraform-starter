@@ -1,0 +1,44 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // https://github.com/benmosher/eslint-plugin-import
+    "import/no-unresolved": [
+      "error",
+      {
+        "commonjs": true,
+        "amd": false
+      }
+    ],
+    // Severity of the following rules was temporarily, please increase after all issues are resolved
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-undef": [
+      "warn"
+    ],
+    "no-async-promise-executor": [
+      "warn"
+    ],
+    "no-case-declarations": [
+      "warn"
+    ],
+    "no-fallthrough": [
+      "warn"
+    ]
+  }
+}

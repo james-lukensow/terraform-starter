@@ -1,0 +1,5 @@
+{
+  "stateBucket": "terraform-starter-state-bucket",
+  "projectPrefix": "tf-starter",
+  "primaryRegion": "us-east-2"
+}

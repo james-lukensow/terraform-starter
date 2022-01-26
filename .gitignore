@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+api/tasks
+cron/tasks
+.env
+.env.build
+
+.terraform/*
+infrastructure/.terraform
+infrastructure/.plan
+lambda/dest
+.eslintcache
+config.js

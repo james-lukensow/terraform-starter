@@ -1,0 +1,10 @@
+{
+  "env": "dev",
+  "apiDocs": true,
+  "stateBucketAccountKey": "terraform-starter_dev.tfstate",
+  "rootZoneId": "",
+  "apiDomain": "",
+  "ecsServiceCount": 1,
+  "ecsDefinitionCpu": 256,
+  "ecsDefinitionMemory": 512
+}
