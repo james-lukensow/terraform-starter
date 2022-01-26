@@ -49,8 +49,14 @@ make deploy-api
 ```
 
 
-## Deploy Lambda
+## Deploy Lambdas
 
 ```
 make deploy-lambdas
+```
+
+## Deploy Single Lambda
+
+```
+LAMBDA=sample make deploy-lambda
 ```
