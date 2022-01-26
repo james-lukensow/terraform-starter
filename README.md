@@ -47,3 +47,10 @@ make deploy
 ```
 make deploy-api
 ```
+
+
+## Deploy Lambda
+
+```
+make deploy-lambdas
+```

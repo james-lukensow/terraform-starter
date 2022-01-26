@@ -37,3 +37,11 @@ output "aws_ecs_definition_cpu" {
 output "aws_ecs_definition_memory" {
   value = var.ecsDefinitionMemory
 }
+
+output "code_bucket_name" {
+  value = aws_s3_bucket.code.id
+}
+
+output "sample_lambda_function" {  
+  value = module.sample_lambda.lambda.function_name
+}
